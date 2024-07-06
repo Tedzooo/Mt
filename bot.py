@@ -70,11 +70,11 @@ async def start(client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 Join my channel 📣", url="https://t.me/NT_BOT_CHANNEL"),
-                InlineKeyboardButton("👥 Support group 👥", url="https://t.me/NT_BOTS_SUPPORT"),
+                InlineKeyboardButton("📣 Join my channel 📣", url="https://t.me/PBX1_BOTS"),
+                InlineKeyboardButton("👥 Support group 👥", url="https://t.me/PBX1_SUPPORT_CHAT"),
             ],
             [
-                InlineKeyboardButton("👩‍💻 Developer 👩‍💻", url="https://t.me/LISA_FAN_LK"),
+                InlineKeyboardButton("👩‍💻 Developer 👩‍💻", url="https://t.me/PBX1_OP"),
                 InlineKeyboardButton("⛔️ Cancel ⛔️", callback_data="cancel"),
             ]
         ]
