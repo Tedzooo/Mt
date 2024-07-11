@@ -7,8 +7,9 @@
 
 
 # How To Deploy
-
-
+https://youtu.be/GC21_UpDHlY
+https://github.com/PBX1-BOTS/Sample-Video-Bot
+https://heroku.com/deploy?template=https://github.com/Tedzo555/my
 * Buildpack :- `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
 
 
