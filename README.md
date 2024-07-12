@@ -1,7 +1,7 @@
 # Sample Video Bot 📹
 
 ###### SUPPORT MP4, MKV
-
+https://app.koyeb.com/deploy?type=git&repository=github.com/Tedzo555/MyBot&env%5BBOT_TOKEN%5D&env%5BAPI_ID%5D&env%5BAPI_HASH%5D&env%5BADMIN%5D&env%5BCAPTION%5D&env%5BTHUMBNAIL%5D&run_command=python%20bot.py&branch=main&name=renamer
 
 ![logo](https://graph.org/file/386a64dd9b18930f2eaa9.jpg)
 
