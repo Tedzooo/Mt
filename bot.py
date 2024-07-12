@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
 # Define your API ID and API HASH from my.telegram.org
-API_ID = '20841292'
-API_HASH = '58c4e84b9b2506684df6447d3e324dd9'
-BOT_TOKEN = '7370962444:AAHrAnZVpyzYwnsW52oropUc17LjDK2HoJM'
+API_ID = '15453419'
+API_HASH = '6c9c9e5a2e65daf192e7dd9dde026f45'
+BOT_TOKEN = '7161717671:AAEdv03kNLb6QSn8NCFVTgxASO0qgjl4AFs'
 
 # Initialize the Client
 app = Client("video_sample_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
