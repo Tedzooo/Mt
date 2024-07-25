@@ -1,5 +1,7 @@
 import os
 import time
+import random
+import asyncio
 from pyrogram import Client, filters, enums
 import ffmpeg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
