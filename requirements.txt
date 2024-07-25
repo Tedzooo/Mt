@@ -1,7 +1,12 @@
 pyrofork
-pyrogram
 tgcrypto
 ffmpeg-python
 tqdm
 flask
 gunicorn==20.1.0
+pymupdf
+opencv-python
+numpy<2
+pyrogram
+openai==0.25.0
+python-dotenv
