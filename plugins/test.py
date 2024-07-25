@@ -34,7 +34,6 @@ async def start(client, message):
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
         await message.reply_photo(photo=random.choice(PICS), caption=start_message.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
-        return await m.delete()
 
 @app.on_callback_query(filters.regex("cancel"))
 async def cancel(client, callback_query):
