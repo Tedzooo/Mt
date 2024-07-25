@@ -10,3 +10,4 @@ numpy<2
 pyrogram
 openai==0.25.0
 python-dotenv
+NumPy==1.26.2
