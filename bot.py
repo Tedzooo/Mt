@@ -2,7 +2,7 @@ import os
 import time
 import random
 import asyncio
-from plugins.photos import PICS
+from photos import PICS
 from pyrogram import Client, filters, enums
 import ffmpeg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
