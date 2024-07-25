@@ -12,7 +12,7 @@ from tqdm import tqdm
 # Define your API ID and API HASH from my.telegram.org
 API_ID = '15453419'
 API_HASH = '6c9c9e5a2e65daf192e7dd9dde026f45'
-BOT_TOKEN = '7161717671:AAEce94mPO28ecL8qKR8VvKVttMHz_HMrE4'
+BOT_TOKEN = '7384862816:AAHUwGihYbI63mDdMSFR78H6qB8LIpMzLXw'
 # Define a list of prank messages
 
 # Initialize the Clien
