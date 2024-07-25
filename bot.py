@@ -20,7 +20,7 @@ app = Client("video_sample_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT
 
     
 
-    @Client.on_message(filters.command("start") & filters.incoming)
+ @app.on_message(filters.command("start")) 
 async def start(client: Client, message: Message):
     start_message = (
     
