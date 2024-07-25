@@ -9,7 +9,7 @@ import ffmpeg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
- @app.on_message(filters.command("start")) 
+ @Client.on_message(filters.command("start")) 
 async def start(client: Client, message: Message):
     start_message = (
     
@@ -30,7 +30,7 @@ async def start(client: Client, message: Message):
         await message.reply_photo(photo=random.choice(PICS), caption=start_message.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
         return await m.delete()
 
-@app.on_callback_query(filters.regex("cancel"))
+@Client.on_callback_query(filters.regex("cancel"))
 async def cancel(client, callback_query):
     await callback_query.message.delete()
 
