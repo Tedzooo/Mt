@@ -2,6 +2,7 @@ import os
 import time
 import random
 import asyncio
+from dotenv import load_dotenv
 from photos import PICS
 from pyrogram import Client, filters, enums
 import ffmpeg
