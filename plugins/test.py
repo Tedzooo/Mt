@@ -2,15 +2,14 @@ import os
 import time
 import random
 import asyncio
-from dotenv import load_dotenv
 from photos import PICS
 from pyrogram import Client, filters, enums
 import ffmpeg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
- @Client.on_message(filters.command("start")) 
-async def start(client: Client, message: Message):
+ @Client.on_message(filters.command(["share_text", "share", "sharetext",]))
+async def start(client, message):
     start_message = (
     
         "👋 Hello welcome to the Video Sample Bot!\n\n"
