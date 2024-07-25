@@ -2,10 +2,11 @@ import os
 import time
 import random
 import asyncio
+from pyrogram.errors import ChatAdminRequired, FloodWait
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from photos import PICS
 from pyrogram import Client, filters, enums
 import ffmpeg
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
 
